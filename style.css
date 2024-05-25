@@ -1,0 +1,188 @@
+.container{
+    background-color: rgb(0, 162, 255);
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todoapp{
+    width: 420px;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    position: relative;
+}
+#writetodo{
+    width: 300px;
+    height: 50px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-left: 59px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btnone{
+   color: rgb(55, 119, 246); 
+   font-size: 20px;
+}
+.btntwo{
+    font-size: 18px;
+}
+.btnthree{
+    font-size: 18px;
+}
+.btnfour{ background-color:rgb(55, 119, 246) ; color: white; padding: 8px; 
+    border-radius:5px ; -webkit-border-radius:5px ; -moz-border-radius:5px ; -ms-border-radius:5px ; -o-border-radius:5px ;
+    border: none;
+}
+.line{
+    width: 420px;
+    border: 1px solid gray;
+    height: 0px;
+}
+.task-title{
+    font-weight: bold;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+.mytasks{
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.divstyle{
+    width: 400px;
+    height: 60px;
+ 
+}
+.itemstyle{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; 
+  gap: 8px; 
+}
+.linstyle{
+    width: 380px;
+    height: 0px;
+    border: 2px solid gray;
+    margin-left: 16px;
+}
+.taskstyle{
+    font-weight: bold;
+    font-size: 22px;
+   
+
+}
+
+
+.checkstyle {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+   /*  position: absolute;
+    left: 8px;
+    top: 28px; */
+    margin-left: 16px;
+    
+   
+}
+
+.pointstyle{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 25px;
+}
+.point-modal-style{
+    width: 115px;
+    height: 72px;
+    background-color:rgb(237, 234, 234);
+    position: absolute;
+    right: 5px;
+    top: 190px;
+}
+.imgedit{
+    width: 20px;
+    height: 20px;
+}
+.editstyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: 32px;
+}
+.trashstyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: 32px;
+}
+.imgdelet{
+    width: 20px;
+    height: 20px;  
+}
+
+/* html */
+/* .point-modal{
+    width: 115px;
+    height: 72px;
+    background-color: rgb(239, 243, 243);
+    position: absolute;
+    right: 5px;
+    top: 175px;
+    display: none;
+}
+.point-modal.active{
+    display: block;
+}
+.edit{
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 12px;
+    gap: 8px;
+}
+.img-edit{
+    width: 20px;
+    height: 20px;
+}
+.trash{
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 12px;
+    gap: 8px;   
+}
+.img-trash{
+    width: 20px;
+    height: 20px;   
+}
+     */
